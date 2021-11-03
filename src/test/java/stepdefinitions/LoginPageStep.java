@@ -14,25 +14,17 @@ public class LoginPageStep {
 
         public LoginPageStep() throws Exception {
             LoginPage loginPage = new LoginPage(BaseClass.getDriver());
-//            PropertiesReader propertiesReader = new PropertiesReader();
-//            this.wait = new WebDriverWait(driver, propertiesReader.getTimeout());
+//
         }
 
 
 
         @Given("user is on login page")
         public void loginPage() {
-//             WebDriver driver;
-//            System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-//            driver = new ChromeDriver();
-//            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//            driver.manage().window().maximize();
-//            driver.get("https://formy-project.herokuapp.com/form");
+//
             LoginPage loginPage = new LoginPage(BaseClass.getDriver());
             loginPage.getLoginPageTitle();
-//            HomePage home = new HomePage(driver, wait);
-//            home.homePageIsDisplayed();
-//            home.clickLoginButton();
+//        
         }
 
 

@@ -28,31 +28,7 @@ public class BaseClass {
         driver.get("https://dev.d2huys0vopau8b.amplifyapp.com");
 
     }
-//    public WebDriver init_driver(String browser) {
-//
-//        System.out.println("browser value is: " + browser);
 
-//        if (browser.equals("chrome")) {
-//            WebDriverManager.chromedriver().setup();
-//            tlDriver.set(new ChromeDriver());
-//        } else if (browser.equals("firefox")) {
-//            WebDriverManager.firefoxdriver().setup();
-//            tlDriver.set(new FirefoxDriver());
-//        } else if (browser.equals("safari")) {
-//            tlDriver.set(new SafariDriver());
-//        } else {
-//            System.out.println("Please pass the correct browser value: " + browser);
-//        }
-//
-//        getDriver().manage().deleteAllCookies();
-//        getDriver().manage().window().maximize();
-//        return getDriver();
-//
-//    }
-//    protected void WaitUntilElementVisible(WebElement element) {
-//
-//        wait.until(ExpectedConditions.visibilityOf(element));
-//    }
 
     public static WebDriver getDriver(){
         return driver;

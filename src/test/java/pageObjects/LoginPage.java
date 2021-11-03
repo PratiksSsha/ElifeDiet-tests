@@ -24,7 +24,7 @@ public class LoginPage {
 
     public String getLoginPageTitle() {
         System.out.println(driver.getTitle());
-        driver.findElement(emailInput).sendKeys("pratikshaIsCool@gmail.com");
+
 //        emailInput.sendkeys();
 
         return driver.getTitle();
@@ -33,31 +33,6 @@ public class LoginPage {
     public void awsSignIn() {
 
     }
-
-//
-//        public boolean isForgotPwdLinkExist() {
-//            return driver.findElement(forgotPwdLink).isDisplayed();
-//        }
-//
-//        public void enterUserName(String username) {
-//            driver.findElement(emailId).sendKeys(username);
-//        }
-//
-//        public void enterPassword(String pwd) {
-//            driver.findElement(password).sendKeys(pwd);
-//        }
-//
-//        public void clickOnLogin() {
-//            driver.findElement(signInButton).click();
-//        }
-//
-//        public void doLogin(String un, String pwd) {
-//            System.out.println("login with: " + un + " and " + pwd);
-//            driver.findElement(emailId).sendKeys(un);
-//            driver.findElement(password).sendKeys(pwd);
-//            driver.findElement(signInButton).click();
-////            return new AccountsPage(driver);
-//        }
 
 }
 
